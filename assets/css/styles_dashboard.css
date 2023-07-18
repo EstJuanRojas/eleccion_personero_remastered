@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300 & display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.borde{
+    border: 1px solid #ccc;
+}
+.container, 
+nav, 
+aside, 
+.modulo,
+main, 
+section,
+footer,
+div,
+a{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    flex-flow: column nowrap;
+}
+nav{
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+.logo{
+    flex: 20%;
+    background: #fff;
+}
+.navegacion{
+    flex: 65%;
+    background: #fff;
+}
+.home{
+    flex: 1;
+    background: #666;
+}
+.navega{
+    flex: 5;
+    background: #999;
+    justify-content: flex-end;
+}
+.navega a{
+    flex: 0;
+    padding: 0 15px;
+}
+.ingreso{
+    flex: 15%;
+    background: #000;
+}
+.ingreso a{
+    color: #fff;
+}
+a{  
+    flex: 1;    
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    align-items: center;    
+}
+section{
+    height: 90vh;
+}
+aside{
+    flex: 20%;
+    flex-flow: column nowrap;
+    padding: 60px 10px 10px 10px;
+    background: #666;
+}
+.modulo{
+    flex-flow: column nowrap;
+}
+.modulo h1{
+    padding: 10px 0;
+}
+.modulo a{
+    padding: 5px 10px;
+    justify-content: flex-start;
+    color: #fff;
+}
+main{
+    flex: 80%;
+    padding: 60px 10px 10px 10px;    
+    flex-flow: column nowrap;
+}
+.migas{
+    padding: 5px;
+}
+.migas a{
+    flex: 0;
+    padding: 1 15px;
+}
+.principal{
+    padding: 5px;
+}
+footer{
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+/* Formulario */
+form{    
+    display: flex;
+    flex-flow: column nowrap;    
+    background: #666;
+}
+.form-rol{
+    flex: 1;
+}
+.form-header{    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;    
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.form-body{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5px;
+}
+.form-control{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 5px;
+}
+.form-control label,
+.form-control input{
+    flex: 1;
+    padding: 5px;
+}
+.form-control label{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-footer{
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px;
+}
+.form-footer input{
+    flex: 1;
+    padding: 5px;
+}
